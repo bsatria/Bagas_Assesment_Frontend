@@ -44,7 +44,7 @@ A modern React TypeScript application for managing packages with authentication,
 ## Prerequisites
 
 Before running this application, make sure you have the following installed:
-- Node.js (version 16 or higher)
+- Node.js (version 20 or higher)
 - npm (comes with Node.js)
 - Git
 
@@ -59,16 +59,6 @@ cd <project-name>
 2. Install dependencies
 ```bash
 npm install
-```
-
-3. Create environment file
-```bash
-cp .env.example .env
-```
-
-4. Update the environment variables in `.env`
-```env
-VITE_API_BASE_URL=https://dev.patriotmed.id
 ```
 
 ## Running the Application
